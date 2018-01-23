@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B86A142-B318-27D8-5BD3-CBAE6D1ED6BB" name="Slika">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>C77650F7-C093-39E5-BF17-8269B0CB6F53</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SID" id="313CDB7F-0191-69ED-C0E8-064CD3882219">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>9CCCAA0D-F5D2-3D05-61AB-CABF137A3934</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPutanja" id="1ABDA9D2-DB60-9149-3327-FBD6B5C3385B">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>DC3306CB-8280-0B3B-5AC3-C02636F612A1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOpis" id="6B90DE90-DAB5-E842-A6D0-CE4F799DFEAA">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>D6641774-607B-138A-DAC2-C5C658242726</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oglas_O_ID" id="A40771AA-179A-700F-E142-FF287F064ECE">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>407821B0-1ED9-F83C-94A5-F5F8F62D24B1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC3BC6C2-4BF3-3907-46E0-A919EEDF30C8" referredColumn="6787F449-74EC-2D0F-00DD-96919FAD5C74"/>
+</associations>
+</Column>
+<Column name="O_Nekretnina_NID" id="B420EB62-76D6-1BA7-8A54-D833870FE852">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>ADAB08D7-9AE0-B54A-8D0B-1C14E79656EC</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC3BC6C2-4BF3-3907-46E0-A919EEDF30C8" referredColumn="D1D29652-5974-48BC-4C79-BCF3B3136B81"/>
+</associations>
+</Column>
+<Column name="O_Vlasnik_KID" id="8BD5EBDC-66AD-C4D6-0318-08B821F52BAA">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>F10E98F3-869F-B002-B6FF-F343E48050B8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC3BC6C2-4BF3-3907-46E0-A919EEDF30C8" referredColumn="C460B4F3-A62F-02B5-DC4F-B1DFF8F99927"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="166D641F-5F4B-0E12-4F94-9EC8D04204F1" name="Slika_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>D10F7A78-F6B4-9C4A-3161-A724068E80B4</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313CDB7F-0191-69ED-C0E8-064CD3882219"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA9AD650-F365-D589-7300-0B34002B8F01" name="Slika_Oglas_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>5B3BFB17-0EE7-C3F9-FBF5-DCC04C6B5A40</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40771AA-179A-700F-E142-FF287F064ECE"/>
+<colUsage columnID="B420EB62-76D6-1BA7-8A54-D833870FE852"/>
+<colUsage columnID="8BD5EBDC-66AD-C4D6-0318-08B821F52BAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

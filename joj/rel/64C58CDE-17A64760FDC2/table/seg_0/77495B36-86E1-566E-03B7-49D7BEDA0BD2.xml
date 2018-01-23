@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77495B36-86E1-566E-03B7-49D7BEDA0BD2" name="Agent">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>20BB556C-09F9-9991-0972-3824CB23CDE1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into agent (ZapID, BrLic) values (1,215557);&lt;br/&gt;insert into agent (ZapID, BrLic) values (2,208551);&lt;br/&gt;insert into agent (ZapID, BrLic) values (3,21152);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapID" id="BCC96D4F-31A4-7C1A-AD8B-7C726D5E1A7D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>F523CEAA-0D93-143B-A22A-DF1139DFA785</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C08118AD-1BCB-15A5-AE16-E3208F5456CC" referredColumn="850EC5EC-4C32-DCBC-5840-03D2EAC493F6"/>
+</associations>
+</Column>
+<Column name="BrLic" id="B3190BBC-9A6F-0C87-5327-24C2D8B9FAE9">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>A21EB665-95DA-C31D-2D15-451F9B69FC07</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBD61AB1-071B-C352-BB0F-88BF1DA7DB40" name="Agent_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>11F76C42-F680-5EB0-8B1F-F40186317F5A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC96D4F-31A4-7C1A-AD8B-7C726D5E1A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CF7EEF6-CDD8-7441-8D62-ABAD5D60A2DC" name="Agent_BrLic_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>9D577B20-3E74-D482-7D37-5473748AD442</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3190BBC-9A6F-0C87-5327-24C2D8B9FAE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="336C42EB-2381-5640-ED0F-074A97CDB1B1" name="Agent_Zaposleni_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>40F81B8C-BE9F-B768-EBA3-A4397CC28937</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC96D4F-31A4-7C1A-AD8B-7C726D5E1A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

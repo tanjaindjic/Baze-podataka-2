@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0933970D-2138-98DD-C1C6-0BE53F6018E6" name="Vrsta_nekretnine">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>729BE68B-42F6-1486-8E7C-826505629FEE</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VID" id="B16D48F7-6963-31ED-6EE5-C2B064B8A978">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>C29A600F-BE11-B29A-C851-38E6CDBD5B3D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VNaziv" id="7763AADB-2744-1CD4-1599-45348D6D8204">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>F63D6984-E410-D76A-71EC-20F3DF500881</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E14116C4-D8D9-9DB2-EF18-3C86DDAF0B6C" name="Vrsta_nekretnine_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>DEED7565-8942-87B5-F16C-82F3D85948D1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B16D48F7-6963-31ED-6EE5-C2B064B8A978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9326563A-CF84-1937-1073-1FA1404673ED" name="Vrsta_nekretnine_VNaziv_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>8C6A4CB6-4862-EA59-ED51-966801BA80FE</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7763AADB-2744-1CD4-1599-45348D6D8204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

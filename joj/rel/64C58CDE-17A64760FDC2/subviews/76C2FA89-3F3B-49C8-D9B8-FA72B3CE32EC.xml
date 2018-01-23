@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_From_RM_Relational_1 - SubView_1" id="76C2FA89-3F3B-49C8-D9B8-FA72B3CE32EC">
+<createdBy>hrcak</createdBy>
+<modifiedBy>hrcak</modifiedBy>
+<createdTime>2018-01-22 15:26:49 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>934674E5-7D8D-686F-D624-9AAB5115B40F</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1592BD9C-448B-92E3-4EC9-F377393F7367" otype="Table" vid="07940B69-12AC-0ED8-2DC0-C7D2D30F353C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="599" y="193" width="123" height="99"/>
+<generatorID>968C6AFC-A73D-7B51-4F44-2C5C7C1A3331</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="30253075-046A-6A5D-2D86-0122478CD77F" otype="Table" vid="3129510B-74AC-E1FB-A7EA-9718C2FB789A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="396" y="9" width="170" height="110"/>
+<generatorID>C393694E-8963-B2F2-FB4F-85773D95242C</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F6775469-5957-F82D-8C6B-6437B4E017AA" otype="Table" vid="F1127BF8-0DC5-CAA3-7172-AA42EA7D1161">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="659" y="675" width="491" height="214"/>
+<generatorID>2769B421-9162-D4D2-512B-6430BA5B2770</generatorID>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F548EA38-20E8-36A7-8CAA-ECA36BA127CF" otype="FKIndexAssociation" vid_source="07940B69-12AC-0ED8-2DC0-C7D2D30F353C" vid_target="F1127BF8-0DC5-CAA3-7172-AA42EA7D1161">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="722" y="241"/>
+<point x="734" y="675"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

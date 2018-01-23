@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1592BD9C-448B-92E3-4EC9-F377393F7367" name="Grad">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B11FCA3D-AF12-D8E3-E9EE-237C2E1AC3F1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into grad (GID, GNaziv, Drzava_DID) values (&apos;NS&apos;, &apos;Novi Sad&apos;, &apos;SRB&apos;);&lt;br/&gt;insert into grad (GID, GNaziv, Drzava_DID) values (&apos;BG&apos;, &apos;Beograd&apos;, &apos;SRB&apos;);&lt;br/&gt;insert into grad (GID, GNaziv, Drzava_DID) values (&apos;SA&apos;, &apos;Sarajevo&apos;, &apos;BIH&apos;);&lt;br/&gt;insert into grad (GID, GNaziv, Drzava_DID) values (&apos;ZG&apos;, &apos;Zagreb&apos;, &apos;HRV&apos;);&lt;br/&gt;insert into grad (GID, GNaziv, Drzava_DID) values (&apos;SO&apos;, &apos;Sofija&apos;, &apos;BUG&apos;);&lt;br/&gt;insert into grad (GID, GNaziv, Drzava_DID) values (&apos;SK&apos;, &apos;Skoplje&apos;, &apos;MKD&apos;);&lt;br/&gt;insert into grad (GID, GNaziv, Drzava_DID) values (&apos;PG&apos;, &apos;Podgorica&apos;, &apos;MNE&apos;);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GID" id="11AFC5E9-3700-CC3C-6A04-836C7E8F0110">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>0FDA8678-DDC3-8ADE-E3FE-5A7C18BF2C7A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GNaziv" id="F43DA17C-425A-D4A3-0D71-CD83923460E6">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>442C62A9-C90B-60A2-3AAF-BE5F052584A0</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drzava_DID" id="6CBFB8B6-9A7E-FA03-5B39-730D05F6768C">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B28832F5-B8F5-F9A5-E7AE-5928E221BFD0</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FBE16CA-895C-CEBB-D535-BB2B4AE9E8EC" referredColumn="5168436D-0E80-8326-1409-F490390A2262"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04BDE325-78D3-224A-A964-EFCA640EBF73" name="Grad_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>A3131D90-5202-6CB9-DD67-0885F314FFB1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11AFC5E9-3700-CC3C-6A04-836C7E8F0110"/>
+<colUsage columnID="6CBFB8B6-9A7E-FA03-5B39-730D05F6768C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12FD7061-80E1-6BD3-BC56-F49DEB3678E0" name="Grad_Drzava_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>0C89ED9F-A06F-8A82-6F3A-B979FA2672A9</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CBFB8B6-9A7E-FA03-5B39-730D05F6768C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

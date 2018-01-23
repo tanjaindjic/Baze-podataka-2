@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFE7D4BA-8880-9C3B-5A4D-8FCD3C0D84E8" name="Cenovnik">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>2385F0BA-3103-621B-38F5-9BBB4837055A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (1, &apos;29-JUN-14&apos;, 7, 700);&lt;br/&gt;insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (2, &apos;29-JUN-14&apos;, 10, 1000);&lt;br/&gt;insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (3, &apos;29-JUN-14&apos;, 15, 1500);&lt;br/&gt;insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (3, &apos;29-JUN-14&apos;, 30, 2800);&lt;br/&gt;insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (4, &apos;01-JAN-18&apos;, 7, 1000);&lt;br/&gt;insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (5, &apos;01-JAN-18&apos;, 10, 1500);&lt;br/&gt;insert into cenovnik (CID, CDat, CTrajOgl, CCenaOgl) values (6, &apos;01-JAN-18&apos;, 15, 2000);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CID" id="C9271F97-142C-ABE3-B536-A50CA6F94AC2">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>24B587A3-3564-C9E5-8FF1-D38BADD6CA46</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CDat" id="E3DED499-B868-1D38-B06B-DD593B04A31F">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>30A770B3-D080-971D-3C37-58484E1CCC6F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTrajOgl" id="4AC15260-1866-5439-2322-23BD0CC4E084">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>AAEACD01-4C17-9286-86D9-A228E848DB98</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CCenaOgl" id="871A5653-3537-21DB-5CB2-1E702945CAA2">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>1FC25B0E-933D-D3FC-ED17-5BB62D1E84FD</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFC61013-B4BB-8BA2-9EFB-258ED3F3C8F5" name="Cenovnik_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>945465A8-3146-3D8B-D612-CCC5BAE5E817</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9271F97-142C-ABE3-B536-A50CA6F94AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

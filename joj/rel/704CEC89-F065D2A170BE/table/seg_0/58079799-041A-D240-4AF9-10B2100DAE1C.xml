@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58079799-041A-D240-4AF9-10B2100DAE1C" name="Sekretar">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>9293A5E1-17C6-9FF8-A988-365F11DC9EBF</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapID" id="5C21E21F-14D7-E2BE-573E-95502B9FC7D0">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>F523CEAA-0D93-143B-A22A-DF1139DFA785</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8D3A5E2-C198-3BF6-089E-6EDE1C009D64" referredColumn="5F86BDC2-269E-0165-E73C-9378C09AF8AD"/>
+</associations>
+</Column>
+<Column name="Strucna_sprema" id="6961693B-3B27-5F65-E0AB-3C32482F4DBE">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>0D8EF284-FFCD-2C09-3C97-710755878494</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AD41AF6-AF41-44AF-BEDE-D33C9B6E7D8D" name="Sekretar_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>11F76C42-F680-5EB0-8B1F-F40186317F5A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C21E21F-14D7-E2BE-573E-95502B9FC7D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2CDAE94-CCF8-067A-616F-07F4B6784DD5" name="Sekretar_Zaposleni_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 21:57:25 UTC</createdTime>
+<generatorID>551FD12B-9857-3650-D3C7-3DD00FE4A5B8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C21E21F-14D7-E2BE-573E-95502B9FC7D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

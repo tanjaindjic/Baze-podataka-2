@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6775469-5957-F82D-8C6B-6437B4E017AA" name="Klijent">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>7E270F8B-2736-D454-8F9B-07CD0CCFE82D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (1, &apos;Fizicko lice&apos;, &apos;Jovan&apos;, &apos;Jovanovic&apos;, &apos;Mise Dimitrijevica 6&apos;, 38165228548, &apos;jjov@gmail.com&apos;, &apos;Zakupodavac&apos;, &apos;NS&apos;, &apos;SRB&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (2, &apos;Pravno lice&apos;, &apos;Ivan&apos;, &apos;Ivanovic&apos;, &apos;Kralja Milana 78&apos;, 381650038498, null, &apos;Zakupodavac&apos;, &apos;BG&apos;, &apos;SRB&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (3, &apos;Fizicko lice&apos;, &apos;Milena&apos;, &apos;Popovic&apos;, &apos;Savska cesta BB&apos;, 38505528154, &apos;milena_popov@gmail.com&apos;, &apos;Zakupodavac&apos;, &apos;ZG&apos;, &apos;HRV&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (4, &apos;Fizicko lice&apos;, &apos;Petar&apos;, &apos;Petrovic&apos;, &apos;27. Marta 4a&apos;, 38268005920, null, &apos;Zakupodavac&apos;, &apos;PG&apos;, &apos;MNE&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (5, &apos;Pravno lice&apos;, &apos;Ivana&apos;, &apos;Jovanovic&apos;, &apos;Augusta Cesarca 7&apos;, 38465228548, null, &apos;Zakupac&apos;, &apos;SA&apos;, &apos;BIH&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (6, &apos;Fizicko lice&apos;, &apos;Milan&apos;, &apos;Milovanovic&apos;, &apos;Puskinova 14&apos;, 381695002543, &apos;mil_mil@gmail.com&apos;, &apos;Zakupac&apos;, &apos;NS&apos;, &apos;SRB&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (7, &apos;Pravno lice&apos;, &apos;Milica&apos;, &apos;Lalic&apos;, &apos;Ul. Kneza Branimira 33&apos;, 35902550663, null, &apos;Zakupac&apos;, &apos;SO&apos;, &apos;BUG&apos;);&lt;br/&gt;insert into klijent (KID, KVrsta, KIme, KPrz, KAdr, KTel, KEmail, KUloga, Grad_GID, Grad_DID) &lt;br/&gt;		values (8, &apos;Fizicko lice&apos;, &apos;Blagoje&apos;, &apos;Netkovski&apos;, &apos;Lazar Pop Trajkov 44&apos;, 3898250000384, &apos;netkovski@gmail.com&apos;, &apos;Zakupac&apos;, &apos;SK&apos;, &apos;MKD&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KID" id="8CAF2797-C768-7823-BAF5-D0DDB7CFDCD6">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>068377E7-7BD8-9DC7-56DE-6598E46D2D7C</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KMBR" id="B9FA7C7B-E68F-85CC-900C-740DCF8B024B">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B7D46277-4082-EFDC-E746-76E42D9BB602</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KBrLK" id="18AFDABD-A396-37D5-1B95-C227E16B428B">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>90F05BB0-E8ED-288C-C7E9-0E0E7CE75AFA</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KVrsta" id="5ECCF1B7-6D12-8D50-588F-C11E11B1858D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>08EB9648-73EB-4513-2F29-A78107BD3F58</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>187995B2-9C51-1D70-963C-7CA3816FBE3B</domain>
+<defaultValue>Fizicko lice</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KIme" id="0D310A80-9856-A06F-5B5D-3E24A6AF1147">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>10C096F2-4AB4-82B4-E8F2-5B314229664B</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPrz" id="AED692A2-EAAF-9D23-F0E8-B224CF7D9745">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B51AE0E0-137E-B15F-6256-E7FF2255B03F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KAdr" id="1A4D74BB-A575-F581-615E-051C82F6F7A8">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>8BD73DEA-0183-B2B1-1B79-17AF5AB96210</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KTel" id="2817646A-18AC-CC82-CAF4-1C5C30487CF7">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>A69A8EBE-2F9E-C422-4D6E-A67BF09F6AFF</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEmail" id="47862DEF-D1F2-F4E9-BD62-FDB01EB3C491">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>5AB5B7F7-2CB4-753B-7699-29881021B26C</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUloga" id="DDD7D8DF-ABEE-4FCB-7AC2-7B02E6BA3533">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>D0DCA037-5E35-C937-21A9-705CE5B130A1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>000E55F4-AE22-A4AF-3F5A-56B10008304B</domain>
+<defaultValue>ZKPD</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad_GID" id="AAD88AAF-145F-D900-29D4-8450D0EE6293">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>6AB779D1-5425-4433-6BEE-C3608DC8ACA1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F548EA38-20E8-36A7-8CAA-ECA36BA127CF" referredColumn="11AFC5E9-3700-CC3C-6A04-836C7E8F0110"/>
+</associations>
+</Column>
+<Column name="Grad_DID" id="4859CC6E-D822-1650-B2AE-E34BDE809207">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>47B96BEF-7316-B3AA-5B68-244049EC47C6</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F548EA38-20E8-36A7-8CAA-ECA36BA127CF" referredColumn="6CBFB8B6-9A7E-FA03-5B39-730D05F6768C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0A6EAB0-9173-7EA8-FF4E-3368C792DF07" name="Klijent_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>AE4DA2AF-8193-BA9B-176D-6305416E2EA5</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CAF2797-C768-7823-BAF5-D0DDB7CFDCD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA621CB7-660E-A0B5-E844-62C177BA3E95" name="Klijent_KMBR_KBrLK_KUloga_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>E168287F-D47F-B858-2827-A34289FBB567</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9FA7C7B-E68F-85CC-900C-740DCF8B024B"/>
+<colUsage columnID="18AFDABD-A396-37D5-1B95-C227E16B428B"/>
+<colUsage columnID="DDD7D8DF-ABEE-4FCB-7AC2-7B02E6BA3533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3471E238-D938-5659-E67D-D2951C820759" name="Klijent_Grad_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>17772245-2D50-A77F-A781-D54141F96E9F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAD88AAF-145F-D900-29D4-8450D0EE6293"/>
+<colUsage columnID="4859CC6E-D822-1650-B2AE-E34BDE809207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

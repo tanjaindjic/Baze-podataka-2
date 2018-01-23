@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AA46712-FAAB-36D6-8A9B-0F924987AD88" name="Nekretnina">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>F4DBCF3F-B656-7C4D-8920-52A7F5E1AB2B</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into nekretnina (NID, NAdr, NPovr, NSoba, NKup, NSpr, NGodIzgr, NStanje, NGrej, NLift, NPlacanje, Vrsta_nekretnine_VID, Grad_GID, Grad_DID, Vlasnik_KID) &lt;br/&gt;values (1, &apos;Laze Kostica 11&apos;, 33, 1, 1, 4, 1985, &apos;Starogradnja&apos;, &apos;Centralno&apos;, 0, &apos;Mesecno&apos;, 1, &apos;NS&apos;, &apos;SRB&apos;, 1);&lt;br/&gt;insert into nekretnina (NID, NAdr, NPovr, NSoba, NKup, NSpr, NGodIzgr, NStanje, NGrej, NLift, NPlacanje, Vrsta_nekretnine_VID, Grad_GID, Grad_DID, Vlasnik_KID) &lt;br/&gt;values (2, &apos;Ruzveltova 34&apos;, 40, 1.5, 1, 1, 2004, &apos;Novogradnja&apos;, &apos;Centralno&apos;, 1, &apos;Mesecno&apos;, 3, &apos;BG&apos;, &apos;SRB&apos;, 2);&lt;br/&gt;insert into nekretnina (NID, NAdr, NPovr, NSoba, NKup, NSpr, NGodIzgr, NStanje, NGrej, NLift, NPlacanje, Vrsta_nekretnine_VID, Grad_GID, Grad_DID, Vlasnik_KID) &lt;br/&gt;values (3, &apos;Dobranska Ulica BB&apos;, 70, 3, 2, 0, 1998, &apos;Novogradnja&apos;, &apos;Etazno&apos;, 0, &apos;Godisnje&apos;, 2, &apos;ZG&apos;, &apos;HRV&apos;, 3);&lt;br/&gt;insert into nekretnina (NID, NAdr, NPovr, NSoba, NKup, NSpr, NGodIzgr, NStanje, NGrej, NLift, NPlacanje, Vrsta_nekretnine_VID, Grad_GID, Grad_DID, Vlasnik_KID) &lt;br/&gt;values (4, &apos;Kalemova 29&apos;, 55, 2, 1, 6, 2000, &apos;Novogradnja&apos;, &apos;Centralno&apos;, 1, &apos;Mesecno&apos;, 4, &apos;SA&apos;, &apos;BIH&apos;, 1);&lt;br/&gt;insert into nekretnina (NID, NAdr, NPovr, NSoba, NKup, NSpr, NGodIzgr, NStanje, NGrej, NLift, NPlacanje, Vrsta_nekretnine_VID, Grad_GID, Grad_DID, Vlasnik_KID) &lt;br/&gt;values (5, &apos;Proleterska 14a&apos;, 23, 1, 1, 2, 1988, &apos;Starogradnja&apos;, &apos;TA&apos;, 0, &apos;Godisnje&apos;, 1, &apos;PG&apos;, &apos;MNE&apos;, 4);&lt;br/&gt;insert into nekretnina (NID, NAdr, NPovr, NSoba, NKup, NSpr, NGodIzgr, NStanje, NGrej, NLift, NPlacanje, Vrsta_nekretnine_VID, Grad_GID, Grad_DID, Vlasnik_KID) &lt;br/&gt;values (6, &apos;Ul. grada Vukovara 4&apos;, 120, 4, 2, 8, 2007, &apos;Novogradnja&apos;, &apos;Podno&apos;, 1, &apos;Mesecno&apos;, 1, &apos;SO&apos;, &apos;BUG&apos;, 3);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NID" id="F9228C8D-9F92-DD42-AFCF-915B268B8618">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>0BE11830-8179-06F3-F633-CAD23323314D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAdr" id="BD2902C3-5D89-9D92-8F99-89BDEB5E58C6">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B9BD8FF3-48F6-A984-8B01-7CA302E21E91</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NPovr" id="818BDA5D-EC22-8F6E-9263-ABC6F205D3A4">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>D7CF85C4-E200-899F-8BE9-E8392EFC3949</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NSoba" id="F81AD96E-F1B3-9345-DFBA-FB166898C6C5">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>9D352A3A-2234-5188-7FA7-34B30F69BE00</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NKup" id="C467FE2B-FF84-6FC2-F416-A586D6AC598F">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B115F664-8C85-0B63-85F6-D837EAF17A5B</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NSpr" id="ACB45150-BB2E-BFF4-B418-C3199538C78C">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>533440B8-72A8-AF88-84DE-6400CE2050F5</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NGodIzgr" id="798EDEE9-B5F6-9F3B-F6FD-6E0CD328369F">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>41D72295-B857-D4EB-3E66-DB145126B358</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NStanje" id="42A2C8FF-5E40-E93C-FFA6-EE2E1B5BDA2C">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>C311E589-EADB-F64F-1720-829CC1205B2B</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D85B060-9298-028B-C97A-971564996F68</domain>
+<defaultValue>Novogradnja</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NGrej" id="E76729A0-29C1-A29A-BE2F-AF3872B4684C">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>78DBC2C3-5EB2-3575-4EDA-E3D29DE31A56</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8F298F1-9BA0-93FE-EDBA-04DDB50550B1</domain>
+<defaultValue>Centralno</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NLift" id="5FE46607-D0C2-AB82-188D-0AF1DFB578C8">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>2443D963-F348-CEE7-A12F-9B907C6FCB85</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NPlacanje" id="2A4ABB0D-CFF9-3F03-BD56-45BF5DA0A165">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>62C6A8F3-7C59-C2FE-FD80-12C45CD70A50</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6528C730-35E1-6F6F-73EF-EC86D30713A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrsta_nekretnine_VID" id="C0D8FE52-B2AF-97B8-18BE-4FB044C3D903">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>F796BBD2-2125-8ABC-22C1-57B0C22B5D50</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D466E486-07A0-3580-B225-9D496B6D25D2" referredColumn="524A8A7B-2508-74EB-EAC6-67556882A13E"/>
+</associations>
+</Column>
+<Column name="Grad_GID" id="56B4F194-65BD-0410-C55F-86DC402AF991">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>8696F28B-C205-0F8B-84C1-DD977AD58001</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="504F5C75-1083-42AC-3305-D222487EFF37" referredColumn="11AFC5E9-3700-CC3C-6A04-836C7E8F0110"/>
+</associations>
+</Column>
+<Column name="Grad_DID" id="A88030DA-0D33-F997-6605-985D40676143">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>25A212BE-558F-B7DE-71F4-E9E0CD2AE5A5</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="504F5C75-1083-42AC-3305-D222487EFF37" referredColumn="6CBFB8B6-9A7E-FA03-5B39-730D05F6768C"/>
+</associations>
+</Column>
+<Column name="Vlasnik_KID" id="66E3FE3C-34C5-EB59-A7B2-9D1F2FDA7828">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>F6B6A45A-6B31-D266-82EF-9D3F9487ADF1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5BDCE3B-6BD0-558C-1548-87437B145DC0" referredColumn="1B4A60F3-AC97-09C5-8086-9F91A7DF991D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="070B5F63-AF81-E23D-B73C-6F40C21AB141" name="Nekretnina_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>CF2C1E2C-EB2B-5E67-9B34-7C84BB6CEC1F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9228C8D-9F92-DD42-AFCF-915B268B8618"/>
+<colUsage columnID="66E3FE3C-34C5-EB59-A7B2-9D1F2FDA7828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E0539AF-CF83-9070-6CCF-207B88EFA257" name="Nekretnina_Zakupodavac_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>6C580F7D-FEAD-2000-E809-C4F19EFD5307</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66E3FE3C-34C5-EB59-A7B2-9D1F2FDA7828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1AF8190-655B-2041-568B-6AE3C7553EC1" name="Nekretnina_Grad_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>C25AEDD8-9EBC-7336-FC63-6BD483D93FD7</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56B4F194-65BD-0410-C55F-86DC402AF991"/>
+<colUsage columnID="A88030DA-0D33-F997-6605-985D40676143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F989CCD-C729-4663-E63A-13EA1FAB6CD9" name="Nekretnina_Vrsta_nekretnine_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>116D99D1-CC8D-3B79-276A-4DEBB0C4444D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D8FE52-B2AF-97B8-18BE-4FB044C3D903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

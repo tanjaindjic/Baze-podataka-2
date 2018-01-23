@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="196DBFF5-435D-96A2-C4B7-7ED25B1045E4" name="Zakupodavac">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>7855529E-C0C8-B20F-38FA-6F41E775C411</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into zakupodavac (KID, Zakupodavac_BR) values (1,1);&lt;br/&gt;insert into zakupodavac (KID, Zakupodavac_BR) values (2,2);&lt;br/&gt;insert into zakupodavac (KID, Zakupodavac_BR) values (3,3);&lt;br/&gt;insert into zakupodavac (KID, Zakupodavac_BR) values (4,4);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KID" id="1B4A60F3-AC97-09C5-8086-9F91A7DF991D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>068377E7-7BD8-9DC7-56DE-6598E46D2D7C</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A4311FA-42EE-1006-BF3D-EC1B8D26FDE7" referredColumn="8CAF2797-C768-7823-BAF5-D0DDB7CFDCD6"/>
+</associations>
+</Column>
+<Column name="Zakupodavac_BR" id="78AC2EB8-1B3B-AF09-469E-1075F4743F24">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>D70E9F88-2CF6-A888-A37F-EA9BD7889E2B</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AAA46EF-CE3D-0902-D307-F7395AAB5C77" name="Zakupodavac_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>AE4DA2AF-8193-BA9B-176D-6305416E2EA5</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4A60F3-AC97-09C5-8086-9F91A7DF991D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5499000-BDAE-7CA6-B5E3-7553FEA22DAA" name="Zakupodavac_Zakupodavac_BR_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>F5E2E93B-9828-C196-CBF9-520363603A42</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78AC2EB8-1B3B-AF09-469E-1075F4743F24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7721553-A504-770B-DB0A-99D82A9507FC" name="Zakupodavac_Klijent_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>F8DC7776-71C6-895D-ECDD-9893CBFCF0C5</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4A60F3-AC97-09C5-8086-9F91A7DF991D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="808E5E15-C3A8-2295-89B9-8C2184BDE9AB" name="Drzava">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>1FAABB2E-1BB9-5B96-AE9D-C4CB89FE4197</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into drzava (DID, DNaziv) values (&apos;SRB&apos;, &apos;Srbija&apos;);&lt;br/&gt;insert into drzava (DID, DNaziv) values (&apos;MNE&apos;, &apos;Crna Gora&apos;);&lt;br/&gt;insert into drzava (DID, DNaziv) values (&apos;HRV&apos;, &apos;Hrvatska&apos;);&lt;br/&gt;insert into drzava (DID, DNaziv) values (&apos;BUG&apos;, &apos;Bugarska&apos;);&lt;br/&gt;insert into drzava (DID, DNaziv) values (&apos;BIH&apos;, &apos;Bosna i Hercegovina&apos;);&lt;br/&gt;insert into drzava (DID, DNaziv) values (&apos;MKD&apos;, &apos;Makedonija&apos;);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DID" id="5168436D-0E80-8326-1409-F490390A2262">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>8DDC01D1-11C4-E9D0-D6B7-3F6D805D2FB5</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNaziv" id="AC5B4FC0-4EC2-28E2-898B-F89B5D6E90D3">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>E80A84C2-5C6B-A8D0-EDDF-DB098E34018D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C69F5F52-CD26-B87D-3B27-38F169241927" name="Drzava_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>33675B79-3CF0-B733-5CB2-642C002BB82A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5168436D-0E80-8326-1409-F490390A2262"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B141EA4-20CA-B3D9-49FD-B6890E192455" name="Drzava_DNaziv_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>6FBBE717-017E-1858-857B-136807AAD3B8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC5B4FC0-4EC2-28E2-898B-F89B5D6E90D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

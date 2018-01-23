@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E0F518E0-1BB3-040B-CBFE-4E644993270E" containerWithKeyObject="A7678954-DFF7-42B5-C178-C7C6DF7A997D" localFKIndex="66EC5FE2-8A91-5F7A-C1DF-A90D82B28807" name="Ug_o_zakupu_Agent_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>3112BB08-F371-483F-11AF-58095E171783</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<referredTableLongName>Agent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77495B36-86E1-566E-03B7-49D7BEDA0BD2</referredTableID>
+<keyObject>EBD61AB1-071B-C352-BB0F-88BF1DA7DB40</keyObject>
+<referredKeyID>EBD61AB1-071B-C352-BB0F-88BF1DA7DB40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ZapID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

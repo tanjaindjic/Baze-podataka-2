@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEC14BB3-9778-A884-D8E4-593EB1C54C14" name="Valuta">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>BC1982D0-407A-D458-AD61-BEBD67DB9A25</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into valuta (ValID, ValNaziv) values (&apos;EUR&apos;, &apos;Euro&apos;);&lt;br/&gt;insert into valuta (ValID, ValNaziv) values (&apos;RSD&apos;, &apos;Srpski Dinar&apos;);&lt;br/&gt;insert into valuta (ValID, ValNaziv) values (&apos;USD&apos;, &apos;Americki Dolar&apos;);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ValID" id="F3A07F4E-959F-253C-BE54-45C8A927512D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>4520696C-8AAE-23D5-55AE-2FED9B97E676</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValNaziv" id="CC9E0A55-6DB1-B6D5-3367-2487C568AB9B">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>96EFF105-2CFD-9DC7-4500-26CA261C9921</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E76839DD-54A9-ACEB-21CF-8D265990C0E7" name="Valuta_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>30871F02-92D7-FCF7-A137-13AC72B170DD</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A07F4E-959F-253C-BE54-45C8A927512D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

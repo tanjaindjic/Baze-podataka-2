@@ -1,0 +1,249 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7678954-DFF7-42B5-C178-C7C6DF7A997D" name="Ugovor_o_zakupu">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B85080DA-6A01-7D87-B29F-9B2954BF6DE8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<afterCreate>insert into ugovor_o_zakupu (UOZ_ID, UOZDat, UOZOpis, UOZKir, UOZDep, UOZProv, UOZTrajGod, Valuta_ValID, Zaposleni_ZapID, Zakupac_KID, Oglas_O_ID, Nekretnina_NID, Vlasnik_KID) &lt;br/&gt;	values (1, &apos;12-JAN-18&apos;, &apos;Zakljucuje se ugovor o zakupu nekretnine.&apos;, 130, 100, 65, 1, &apos;EUR&apos;, 1, 5, 1, 1, 1);&lt;br/&gt;insert into ugovor_o_zakupu (UOZ_ID, UOZDat, UOZOpis, UOZKir, UOZDep, UOZProv, UOZTrajGod, Valuta_ValID, Zaposleni_ZapID, Zakupac_KID, Oglas_O_ID, Nekretnina_NID, Vlasnik_KID) &lt;br/&gt;	values (2, &apos;09-JAN-18&apos;, &apos;Zakljucuje se ugovor o zakupu nekretnine.&apos;, 25000, 10000, 8000, 3, &apos;RSD&apos;, 2, 6, 2, 2, 2);&lt;br/&gt;insert into ugovor_o_zakupu (UOZ_ID, UOZDat, UOZOpis, UOZKir, UOZDep, UOZProv, UOZTrajGod, Valuta_ValID, Zaposleni_ZapID, Zakupac_KID, Oglas_O_ID, Nekretnina_NID, Vlasnik_KID) &lt;br/&gt;	values (3, &apos;20-JAN-18&apos;, &apos;Zakljucuje se ugovor o zakupu nekretnine.&apos;, 260, 250, 80, 2, &apos;EUR&apos;, 2, 7, 3, 3, 3);&lt;br/&gt;insert into ugovor_o_zakupu (UOZ_ID, UOZDat, UOZOpis, UOZKir, UOZDep, UOZProv, UOZTrajGod, Valuta_ValID, Zaposleni_ZapID, Zakupac_KID, Oglas_O_ID, Nekretnina_NID, Vlasnik_KID) &lt;br/&gt;	values (4, &apos;03-JAN-18&apos;, &apos;Zakljucuje se ugovor o zakupu nekretnine.&apos;, 230, 150, 70, 2, &apos;EUR&apos;, 3, 8, 4, 4, 1);&lt;br/&gt;insert into ugovor_o_zakupu (UOZ_ID, UOZDat, UOZOpis, UOZKir, UOZDep, UOZProv, UOZTrajGod, Valuta_ValID, Zaposleni_ZapID, Zakupac_KID, Oglas_O_ID, Nekretnina_NID, Vlasnik_KID) &lt;br/&gt;	values (1, &apos;18-JAN-18&apos;, &apos;Zakljucuje se ugovor o zakupu nekretnine.&apos;, 100, 100, 55, 3, &apos;EUR&apos;, 3, 5, 5, 5, 4);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UOZ_ID" id="FDC2AB3E-A2B6-0CC0-1883-5B30AB23E7C0">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>3804F306-92FF-92AD-4135-D2CBA2CC83E8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOZUgDat" id="1BE7C2B9-F3AE-B4A5-5678-80E2860CA9F0">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>EF2199B6-A89E-1FC4-0529-7B1D3640FD6A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOZOpis" id="2104797F-7A74-BEC4-F5E6-0A33EE08D173">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>7332FC58-95DA-6E3A-62E3-C51DB6E40A4E</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOZUgKir" id="E3D3DB4E-5CBD-0EBC-7F14-B55A71B25C9D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>03AAD454-9267-92AE-B4FA-2F8F6BB08050</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOZUgDep" id="1113D910-522C-9761-DCB4-2F36E26C920F">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>9CA89735-9011-5C87-C83A-6A7F3E7024E3</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOZUgProv" id="A3191967-2557-37EA-80CE-4D506562306B">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>75902A91-2924-F980-976A-82487DBDB612</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOZUgTrajGod" id="52FB37E2-5B08-E5C7-ABAD-AE552E2EDAD5">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>3077AB1C-D419-9836-4381-C47BEC6A4D65</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAK_Valuta_ValID" id="3DC355DF-484B-8205-99EB-A35998CB1227">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B1D508E6-745D-9D74-ABB4-02B7C9532C0A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="790D50F4-24E5-81C8-7F99-45EE42AF88B9" referredColumn="F3A07F4E-959F-253C-BE54-45C8A927512D"/>
+</associations>
+</Column>
+<Column name="ZAK_Zaposleni_ZapID" id="D6D165B8-D50C-B879-C1E5-FF1B11509563">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>41FA5F41-4C83-991D-2E8C-06CD9B19E37D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0F518E0-1BB3-040B-CBFE-4E644993270E" referredColumn="BCC96D4F-31A4-7C1A-AD8B-7C726D5E1A7D"/>
+</associations>
+</Column>
+<Column name="Zakupac_KID" id="A8952CF6-77A3-DE4A-577C-10D8C448886A">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>E14D9E04-CFDA-A294-9414-264955B70DE6</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D3B5483-F8C2-C7AA-DE33-0F521F1B8604" referredColumn="47CED106-5BB9-7592-E7D1-CD97620F4AE3"/>
+</associations>
+</Column>
+<Column name="ZAK_Oglas_O_ID" id="42A407FB-1719-8319-EB40-230658002AFB">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 18:16:06 UTC</createdTime>
+<generatorID>0479CC72-A9D6-516C-7C50-06588654D800</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="408A8BD8-AF91-6A29-EC83-6B44DB36C795" referredColumn="88CA42F1-0EB2-4E28-ABA0-34C012A8E4E6"/>
+</associations>
+</Column>
+<Column name="ZAK_Nekretnina_NID" id="AB970AE5-94ED-A1BE-3BEA-85C162888C9E">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 18:16:06 UTC</createdTime>
+<generatorID>D50D23EC-4DF2-B9FA-57F0-956CDB81519E</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="408A8BD8-AF91-6A29-EC83-6B44DB36C795" referredColumn="69DE14DA-5436-826E-383B-3E37B38EC88C"/>
+</associations>
+</Column>
+<Column name="ZAK_Vlasnik_KID" id="F9DED42D-A180-E019-0DD9-75E2D1F8F084">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 18:16:06 UTC</createdTime>
+<generatorID>70783ECF-2557-60A4-2D2A-40E4934E6B45</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="408A8BD8-AF91-6A29-EC83-6B44DB36C795" referredColumn="DCEEDF4C-732A-D682-0741-799AB8C2B9C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1837A4F4-0CA0-1406-D607-5DDBE07F9931" name="Ugovor_o_zakupu_PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>0E3B4347-1DF2-2F1A-DDE7-53F6A39CFBF8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDC2AB3E-A2B6-0CC0-1883-5B30AB23E7C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C174CFB-D257-A295-B81D-496F09676F8B" name="Ug_o_zakupu_Valuta_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>B8ACA8DA-5B9B-16FE-2E24-B821851F347C</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC355DF-484B-8205-99EB-A35998CB1227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66EC5FE2-8A91-5F7A-C1DF-A90D82B28807" name="Ug_o_zakupu_Agent_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>3112BB08-F371-483F-11AF-58095E171783</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D165B8-D50C-B879-C1E5-FF1B11509563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C842C762-F38C-C7ED-CE2B-24B2CEBE9B93" name="Ug_o_zakupu_Zakupac_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:56:10 UTC</createdTime>
+<generatorID>1B85E121-AD32-80F7-9A16-4953F0B33D68</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8952CF6-77A3-DE4A-577C-10D8C448886A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91B0D967-63B0-8CC4-309C-9D050406C714" name="Ug_o_zakupu_Oglas_FK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 18:16:06 UTC</createdTime>
+<generatorID>ED2CE88E-BA7B-0A66-6AF3-95BB6BC5470E</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42A407FB-1719-8319-EB40-230658002AFB"/>
+<colUsage columnID="AB970AE5-94ED-A1BE-3BEA-85C162888C9E"/>
+<colUsage columnID="F9DED42D-A180-E019-0DD9-75E2D1F8F084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
