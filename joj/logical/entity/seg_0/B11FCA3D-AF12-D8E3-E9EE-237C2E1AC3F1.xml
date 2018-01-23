@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B11FCA3D-AF12-D8E3-E9EE-237C2E1AC3F1" name="Grad">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>1838C35D-28D1-379D-C5D8-8718EB836195</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GID" id="0FDA8678-DDC3-8ADE-E3FE-5A7C18BF2C7A">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>EAA54B07-8E08-2804-A849-A656B06EAA1A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GNaziv" id="442C62A9-C90B-60A2-3AAF-BE5F052584A0">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>BAC44209-B414-208D-6740-3907B03A22A8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drzava DID" id="B28832F5-B8F5-F9A5-E7AE-5928E221BFD0">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>0C89ED9F-A06F-8A82-6F3A-B979FA2672A9</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<referedAttribute>8DDC01D1-11C4-E9D0-D6B7-3F6D805D2FB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3131D90-5202-6CB9-DD67-0885F314FFB1" name="Grad PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>4DFF2729-1625-C75A-41C7-B6EF640DBD94</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="false"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FDA8678-DDC3-8ADE-E3FE-5A7C18BF2C7A</attributeRef>
+<attributeRef>B28832F5-B8F5-F9A5-E7AE-5928E221BFD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zastupa" directorySegmentName="seg_0" id="68B4E4A2-8C6B-5BDF-103C-9C02ECF75FD9">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:06:32 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>11F76C42-F680-5EB0-8B1F-F40186317F5A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20BB556C-09F9-9991-0972-3824CB23CDE1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33A60F73-CA92-EB93-24E8-8B89AB73A68D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

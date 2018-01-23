@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="729BE68B-42F6-1486-8E7C-826505629FEE" name="Vrsta nekretnine">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>E167F02B-B526-F17B-54A3-532E72DFA4AE</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VID" id="C29A600F-BE11-B29A-C851-38E6CDBD5B3D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>BC455EDB-8C0B-59D1-D930-C349805C58AE</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VNaziv" id="F63D6984-E410-D76A-71EC-20F3DF500881">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>CF89BE3B-A94D-3A0D-6167-B03BD2A08008</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEED7565-8942-87B5-F16C-82F3D85948D1" name="Vrsta nekretnine PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>3B3CB8BE-85A0-EAEB-FB5C-EB3B4915B10F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="false"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C29A600F-BE11-B29A-C851-38E6CDBD5B3D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8C6A4CB6-4862-EA59-ED51-966801BA80FE" name="VNaziv UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>FB9C16FC-4BA1-25E5-6FAC-79DCC46DDB14</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="false"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="false"/>
+</engineerTo>
+<newElementsIDs>F63D6984-E410-D76A-71EC-20F3DF500881</newElementsIDs>
+<usedAttributes>
+<attributeRef>F63D6984-E410-D76A-71EC-20F3DF500881</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

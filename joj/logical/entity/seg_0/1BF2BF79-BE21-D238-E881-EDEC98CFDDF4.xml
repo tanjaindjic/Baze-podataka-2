@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BF2BF79-BE21-D238-E881-EDEC98CFDDF4" name="Oglas">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>8DB7D76E-AE37-885C-2300-B35E5F4A6A1A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="O_ID" id="F14A20F8-4766-DA8A-7EC3-FA8F75BB7DF9">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>609E8309-23F9-51EE-3E30-8A21FF13367A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODatObjave" id="953785E4-EEE8-D581-3752-6C9733EC0515">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>4CC933CA-7D5E-0425-6507-A688B6AF1B92</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OKir" id="3B65BEA1-8FDB-2B3D-E841-A689DCE22486">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>0CE8532E-BA63-AA3A-E4D3-4CA71DB8DDCA</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODep" id="205A577B-8FAF-7567-D537-3B9695EB86B5">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>0CF716DA-0FDE-5C0A-B10F-5350BCD43C01</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,13,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OOpis" id="F6B8DED3-A262-4AEE-0C77-CFB705DF6C59">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>D5D41D41-12DF-6504-57FF-DB1EA577B36A</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O Cenovnik CID" id="3807F820-22A3-CFEF-BC5F-4BC1069A3FED">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>FEE20CE3-3BF5-9079-8D1E-D27E19FE00A2</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>24B587A3-3564-C9E5-8FF1-D38BADD6CA46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O Nekretnina NID" id="9D09BC59-4110-6E26-048C-2969693AE690">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>68FC159B-3B95-40FA-CC8F-4FA350860B08</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>0BE11830-8179-06F3-F633-CAD23323314D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O Valuta ValID" id="4EC24D36-B8EE-5E9D-77E8-E41A3CF8DCED">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>B00C04B7-6B0F-6E4A-88D4-DFADBA5BAB78</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>4520696C-8AAE-23D5-55AE-2FED9B97E676</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O Vlasnik KID" id="7A38923F-BF6F-5943-7C7D-C2B9D3D0AE51">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:55:29 UTC</createdTime>
+<generatorID>68FC159B-3B95-40FA-CC8F-4FA350860B08</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>F6B6A45A-6B31-D266-82EF-9D3F9487ADF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="703AA89B-4BF6-C84F-DEAF-EF5D7713E031" name="Oglas PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>D8A0FF09-A9AB-D51A-9B3A-0E5184339CD7</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="false"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F14A20F8-4766-DA8A-7EC3-FA8F75BB7DF9</attributeRef>
+<attributeRef>9D09BC59-4110-6E26-048C-2969693AE690</attributeRef>
+<attributeRef>7A38923F-BF6F-5943-7C7D-C2B9D3D0AE51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

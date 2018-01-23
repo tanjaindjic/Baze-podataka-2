@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vrsi zakup" directorySegmentName="seg_0" id="1B85E121-AD32-80F7-9A16-4953F0B33D68">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:11:57 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>AE4DA2AF-8193-BA9B-176D-6305416E2EA5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31709F7B-6D28-8A8D-E925-69D0F37E1561</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B85080DA-6A01-7D87-B29F-9B2954BF6DE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

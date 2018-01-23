@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A60F73-CA92-EB93-24E8-8B89AB73A68D" name="Ugovor o izdavanju">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:26 UTC</createdTime>
+<generatorID>D18D02C7-3341-4219-AB4B-2C6CA2F488FC</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UOIZ_ID" id="356670DA-7F1E-4F53-EBBA-E1C4DAAE5AC6">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:26 UTC</createdTime>
+<generatorID>5D16374C-8E62-41C5-E6D6-5FD8FF625545</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UOIZDat" id="7534D0BB-C9AA-F927-CA83-41A58CA0F12A">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:26 UTC</createdTime>
+<generatorID>214722F4-C67E-9461-4DD4-E5E506824D77</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UOIZOpis" id="3CD7B26C-EACE-F30D-B5D5-D2A0132E52AA">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:26 UTC</createdTime>
+<generatorID>A547CDD7-6D04-2898-D5BA-08A77D86F01F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IZD Nekretnina NID" id="6F405C16-076B-F6C0-DC8A-DD2356675FFD">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:36 UTC</createdTime>
+<generatorID>12071C3D-ACBE-2805-DAC3-7B41B95EC9D1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>0BE11830-8179-06F3-F633-CAD23323314D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IZD Vlasnik KID" id="19BC74C0-6339-7C56-C0F5-03DC87C333CC">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:36 UTC</createdTime>
+<generatorID>12071C3D-ACBE-2805-DAC3-7B41B95EC9D1</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>F6B6A45A-6B31-D266-82EF-9D3F9487ADF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IZD Zaposleni ZapID" id="D99B79E5-60C7-486C-FEBB-5CDEF985DDE4">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:06:32 UTC</createdTime>
+<generatorID>68B4E4A2-8C6B-5BDF-103C-9C02ECF75FD9</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>F523CEAA-0D93-143B-A22A-DF1139DFA785</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24BDC969-1719-80D2-EBDC-4DD8B0B4B417" name="Ugovor o zastupanju PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:05:26 UTC</createdTime>
+<generatorID>8195E1FE-0E62-F37D-2F8C-8C9675F8A6A8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="false"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>356670DA-7F1E-4F53-EBBA-E1C4DAAE5AC6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C4352392-C45A-CD63-4DFE-B36D097071AC" name="Izdavanje_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 15:10:37 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="false"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<newElementsIDs>12071C3D-ACBE-2805-DAC3-7B41B95EC9D1</newElementsIDs>
+<usedAttributes>
+<attributeRef>6F405C16-076B-F6C0-DC8A-DD2356675FFD</attributeRef>
+<attributeRef>19BC74C0-6339-7C56-C0F5-03DC87C333CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

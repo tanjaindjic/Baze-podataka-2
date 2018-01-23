@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Se zakupljuje" directorySegmentName="seg_0" id="ED2CE88E-BA7B-0A66-6AF3-95BB6BC5470E">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 18:12:38 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>0E3B4347-1DF2-2F1A-DDE7-53F6A39CFBF8</sourcePk>
+<targetPk>703AA89B-4BF6-C84F-DEAF-EF5D7713E031</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B85080DA-6A01-7D87-B29F-9B2954BF6DE8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1BF2BF79-BE21-D238-E881-EDEC98CFDDF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

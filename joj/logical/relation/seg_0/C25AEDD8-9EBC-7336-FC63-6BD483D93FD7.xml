@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nekr iz grada" directorySegmentName="seg_0" id="C25AEDD8-9EBC-7336-FC63-6BD483D93FD7">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>0D03B1D9-0AAC-0026-A0D0-F4DF20C73B7F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>A3131D90-5202-6CB9-DD67-0885F314FFB1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B11FCA3D-AF12-D8E3-E9EE-237C2E1AC3F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4DBCF3F-B656-7C4D-8920-52A7F5E1AB2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

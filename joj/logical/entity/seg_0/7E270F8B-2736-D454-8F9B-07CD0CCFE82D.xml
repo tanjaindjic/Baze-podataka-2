@@ -1,0 +1,271 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E270F8B-2736-D454-8F9B-07CD0CCFE82D" name="Klijent">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>306A5375-2449-3846-CAFD-09B25F18FEFC</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KID" id="068377E7-7BD8-9DC7-56DE-6598E46D2D7C">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>00A7F04E-E2B4-981D-268C-D64F0967AF63</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KMBR" id="B7D46277-4082-EFDC-E746-76E42D9BB602">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:36:13 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KBrLK" id="90F05BB0-E8ED-288C-C7E9-0E0E7CE75AFA">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:36:42 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KPIB" id="9FAFDBD6-978C-B7B6-F0B0-B7F7F7F1A676">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-23 12:54:40 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KNazivFirme" id="C9FA9FE8-B469-B5EB-ECB3-21F0975BAAE8">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-23 12:55:29 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KVrsta" id="08EB9648-73EB-4513-2F29-A78107BD3F58">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>7182B85B-5A80-26AA-66C4-3727F0A13ACD</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>187995B2-9C51-1D70-963C-7CA3816FBE3B</domain>
+<defaultValue>Fizicko lice</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KIme" id="10C096F2-4AB4-82B4-E8F2-5B314229664B">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>AABFE683-4D3C-7E1C-15A4-542F027BABE9</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KPrz" id="B51AE0E0-137E-B15F-6256-E7FF2255B03F">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>D18DB3A4-5793-5363-5B3A-B85722F4E5E4</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KAdr" id="8BD73DEA-0183-B2B1-1B79-17AF5AB96210">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>F826D313-EB01-669B-BC69-3A8A0210244D</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KTel" id="A69A8EBE-2F9E-C422-4D6E-A67BF09F6AFF">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>D5769E0F-8EB7-3264-FE97-D2FA0A1E770E</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KEmail" id="5AB5B7F7-2CB4-753B-7699-29881021B26C">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>00AED4A8-F8DA-7503-3592-2B6262857240</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KUloga" id="D0DCA037-5E35-C937-21A9-705CE5B130A1">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>627D1729-15EF-2700-7F58-263203FD10E7</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>000E55F4-AE22-A4AF-3F5A-56B10008304B</domain>
+<defaultValue>ZKPD</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grad GID" id="6AB779D1-5425-4433-6BEE-C3608DC8ACA1">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>17772245-2D50-A77F-A781-D54141F96E9F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>0FDA8678-DDC3-8ADE-E3FE-5A7C18BF2C7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grad DID" id="47B96BEF-7316-B3AA-5B68-244049EC47C6">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>17772245-2D50-A77F-A781-D54141F96E9F</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<referedAttribute>B28832F5-B8F5-F9A5-E7AE-5928E221BFD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE4DA2AF-8193-BA9B-176D-6305416E2EA5" name="Klijent PK">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:53:11 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>068377E7-7BD8-9DC7-56DE-6598E46D2D7C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E168287F-D47F-B858-2827-A34289FBB567" name="Klijent_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 17:37:18 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+</engineerTo>
+<newElementsIDs>B7D46277-4082-EFDC-E746-76E42D9BB602,90F05BB0-E8ED-288C-C7E9-0E0E7CE75AFA,D0DCA037-5E35-C937-21A9-705CE5B130A1</newElementsIDs>
+<usedAttributes>
+<attributeRef>B7D46277-4082-EFDC-E746-76E42D9BB602</attributeRef>
+<attributeRef>90F05BB0-E8ED-288C-C7E9-0E0E7CE75AFA</attributeRef>
+<attributeRef>D0DCA037-5E35-C937-21A9-705CE5B130A1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="646C2509-19FB-9E5D-1631-3C8D000BE9C4" name="Klijent_PIB_UN">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-23 12:56:42 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<newElementsIDs>9FAFDBD6-978C-B7B6-F0B0-B7F7F7F1A676</newElementsIDs>
+<usedAttributes>
+<attributeRef>9FAFDBD6-978C-B7B6-F0B0-B7F7F7F1A676</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

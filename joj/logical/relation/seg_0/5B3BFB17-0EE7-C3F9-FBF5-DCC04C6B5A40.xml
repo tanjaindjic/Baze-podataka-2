@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Koristiv1" directorySegmentName="seg_0" id="5B3BFB17-0EE7-C3F9-FBF5-DCC04C6B5A40">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>E7B2808B-C57B-AEED-2B89-8AD9FC211848</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>703AA89B-4BF6-C84F-DEAF-EF5D7713E031</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BF2BF79-BE21-D238-E881-EDEC98CFDDF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C77650F7-C093-39E5-BF17-8269B0CB6F53</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

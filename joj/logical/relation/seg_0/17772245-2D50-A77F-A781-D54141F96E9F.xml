@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kl iz grada" directorySegmentName="seg_0" id="17772245-2D50-A77F-A781-D54141F96E9F">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>49A5D0CA-A690-D028-37C1-8BFA30F2655C</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>A3131D90-5202-6CB9-DD67-0885F314FFB1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B11FCA3D-AF12-D8E3-E9EE-237C2E1AC3F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7E270F8B-2736-D454-8F9B-07CD0CCFE82D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

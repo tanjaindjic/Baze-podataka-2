@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Je u UOIZ" directorySegmentName="seg_0" id="12071C3D-ACBE-2805-DAC3-7B41B95EC9D1">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:58:00 UTC</createdTime>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>CF2C1E2C-EB2B-5E67-9B34-7C84BB6CEC1F</sourcePk>
+<dominantRole>F4DBCF3F-B656-7C4D-8920-52A7F5E1AB2B</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4DBCF3F-B656-7C4D-8920-52A7F5E1AB2B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>33A60F73-CA92-EB93-24E8-8B89AB73A68D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Je vrsta" directorySegmentName="seg_0" id="116D99D1-CC8D-3B79-276A-4DEBB0C4444D">
+<createdBy>hrcak</createdBy>
+<createdTime>2018-01-22 14:35:16 UTC</createdTime>
+<generatorID>02DC6A50-0868-DD1B-E037-99B941F319F8</generatorID>
+<ownerDesignName>joj</ownerDesignName>
+<engineerTo>
+<item key="64C58CDE-6909-990C-9B1D-17A64760FDC2" value="true"/>
+<item key="704CEC89-F5DD-148B-92B7-F065D2A170BE" value="true"/>
+</engineerTo>
+<sourcePk>DEED7565-8942-87B5-F16C-82F3D85948D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>729BE68B-42F6-1486-8E7C-826505629FEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4DBCF3F-B656-7C4D-8920-52A7F5E1AB2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
